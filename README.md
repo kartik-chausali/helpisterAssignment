@@ -5,6 +5,7 @@
 This Todo application allows users to create, view, edit, and delete their tasks. It is built using React for the frontend and a simple backend to manage the todos. The application also includes a search functionality with debouncing to efficiently find todos based on their titles.  
 The Backend is deployed on Render and frontend on Vercel.   
 Checkout Live Link : https://helpister-assignment.vercel.app/
+- **NOTE:** Backend on inactivity of more than 15min on Render takes usually 50sec to spin up again. So delay of 50 sec is possible.
 ## System Design
 
 ### Frontend
